@@ -8,7 +8,7 @@
 [GHS-SMOD (Global Human Settlement Layer – Settlement Model Layer)](https://human-settlement.emergency.copernicus.eu/download.php?ds=smod) provides valuable information on urbanization processes. The SMOD raster dataset, covering the period from 1975 to 2030 in 5-year intervals, offers estimated land use classifications for each 1 km × 1 km grid cell globally.
 
 ```{margin} ✨ For the details of GHS-SMOD
-Read this [GHS-official technical document](https://github.com/worldbank/SMOD_analyzer/blob/main/docs/GHSL_Data_Package_2023.pdf) for more details.
+Read this [GHS-official technical document](https://github.com/worldbank/SMOD_analyzer/blob/main/docs/GHSL_Data_Package_2023.pdf) (pp.50-62) for more details.
 ```
 
 
@@ -23,30 +23,32 @@ For those with knowledge of GIS and Python, this notebook serves as a good found
 ## Usage
 
 ### Getting Started
+#### 1. **Prepare your Google Colab account**
+As this notebook is optimized for the Google Colab (hereafter, Colab) environment, you must first create a Google account (if you don’t already have one) and access your [Google Drive](https://drive.google.com/drive/my-drive).
+If you have previously used Colab, you likely already have a “Colab Notebooks” directory. If not, please create one.
 
-```{margin} ✨ Can't see the <span style="color:#3EACAD">template</span> ?
-Please ensure you are logged in on [GitHub](https://github.com) and have permissions to create a repository.
-```
+#### 2. **Download all SMOD-analyzer resources**
+The must-haves for this notebook are:
+- [SMOD_analyzer.ipynb](https://github.com/worldbank/SMOD_analyzer/blob/main/notebooks/SMOD_analyzer.ipynb)
+- [tools.py](https://github.com/worldbank/SMOD_analyzer/blob/main/src/tools.py)
+- [underlying SMOD dataset](https://github.com/worldbank/SMOD_analyzer/tree/main/data/smod_raw)
 
-#### 1. **Create new repository from template**
 
-The <span style="color:#3EACAD">template</span> is a [GitHub template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template); in other words, you can generate a new GitHub repository with the same files and folders to use as the starting point for your project.
+Store these resources in a new directory (for example, 'Analyzing GHS-SMOD') following the directory structure below:
 
-> 🌟 [Create new repository from **template**](https://github.com/worldbank/template/generate)
+Analyzing GHS-SMO/
+├── data/
+│   ├── shps/
+│   └── smod_row/
+│       └──all SMOD raster images (1975-2030)
+├── data/
+│   └── japan_admin_boundaries.geojson
+├── SMOD_analyzer.ipynb
+└── tools.py
 
-```{figure} docs/images/github-template.png
----
----
-```
 
-Now, give your repository a name, choose the **visibility** (Public or Private) and click **Create repository from template**.
 
-```{figure} docs/images/github-template-create.png
----
----
-```
 
-*Voilà!* The repository has been created with the same files and folders of the <span style="color:#3EACAD">template</span>.
 
 ```{seealso}
 For additional information, see the [GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
