@@ -4,67 +4,9 @@
 [![GitHub Release](https://img.shields.io/github/v/release/worldbank/template)](https://github.com/worldbank/template/releases)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/worldbank/template/main.svg)](https://results.pre-commit.ci/latest/github/worldbank/template/main)
 
-The <span style="color:#3EACAD">template</span> is a standardized, but flexible *project* and *documentation* structure of folders and files for sharing your data science work.
+## Introduction
+Perform national- and subnational-level extraction of GHS-SMOD (Global Human Settlement Layer – Settlement Model Layer) values. Using this analyzer, you can easily extract urban and rural pixels for your national and subnational-level AOIs.
 
-Inspired by [literate programming](http://literateprogramming.com), maintained by the [Development Data Group](https://www.worldbank.org/en/about/unit/unit-dec/dev) and built as [GitHub template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), the <span style="color:#3EACAD">template</span> contains:
-
-- [**README**](README), [**CODE_OF_CONDUCT**](docs/CODE_OF_CONDUCT.md), [**CONTRIBUTING**](docs/CONTRIBUTING.md) templates
-    > README files are important and often neglected. The files should inform anyone about the first steps to use, learn and contribute to your project.
-
-- [**CITATION.cff**](CITATION.cff)
-  > Embracing [CFF](https://citation-file-format.github.io) aligns with best practices for reproducible research and software development. By adhering to established standards for documenting project dependencies and citations, we demonstrate our commitment to quality, transparency, and integrity in our work.
-
-- [**LICENSE**](LICENSE)
-  > The LICENSE is a document that  determines what others can and cannot do with contents of the repository. If no license is present, no one has permission to use and/or modify your code. The <span style="color:#3EACAD">template</span> is licensed under the [**Mozilla Public License**](https://www.mozilla.org/en-US/MPL/). And so will projects generated from it. For further information, see also [this discussion](https://github.com/orgs/worldbank/discussions/4).
-
-- **docs/**
-
-    > Documentation is often never prioritized until last minute. The <span style="color:#3EACAD">template</span> aims to revert the malpractice by setting up the documentation as an integral part, inspired by [literate programming](http://literateprogramming.com). With the power of [Jupyter Book](https://jupyterbook.org), data practitioners have a way to share [Jupyter notebooks](https://jupyter.org) on [GitHub Pages](https://pages.github.com) in a standardized and effortless way.
-
-- [**docs/bibliography.bib**](/docs/bibliography.bib)
-    > A `bibliography` using the [BibTeX](https://www.bibtex.org/Format/) format. Use this file to include and cite your project's bibliography. See also [Citations and bibliographies](https://jupyterbook.org/en/stable/content/citations.html).
-
-- **data/**
-    > Placeholder folder for data. Data is immutable. By default, the data folder is present but ignored from version control, in order to prevent files of being mistakenly versioned in the code repository.
-
-- **src/**
-    > Placeholder folder for source code. If Python, it is recommended the package is made pip-installable.
-
-- **notebooks/**
-    > Placeholder folder for [Jupyter notebooks](https://jupyter.org). Markdown files and Jupyter notebooks can be added to `docs/_toc.yml` (Table of Contents) to compose the *documentation*.
-
-- [**.pre-commit-config.yml**](https://github.com/worldbank/template/blob/main/.pre-commit-config.yaml)
-    > Using [pre-commit](https://pre-commit.com) offers a significant advantage in streamlining the development process by enforcing code standards and reducing errors before code reaches the review stage or is committed to the repository. It automates the execution of various checks, such as syntax errors, code formatting, and ensuring compliance with coding standards, which saves time and improves code quality.
-
-- [GitHub Actions](https://github.com/features/actions) and [Dependabot](https://docs.github.com/en/code-security/dependabot)
-    > [GitHub Actions](https://github.com/features/actions) and [Dependabot](https://docs.github.com/en/code-security/dependabot) are two powerful features provided by [GitHub](https://github.com) to automate and secure software development workflows, making it easier for developers to maintain high-quality and safe codebases.
-
-- [GitHub Issues and Pull Requests GitHub](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
-    > GitHub allows to customize how issues and pull requests are presented to the public. Custom templates encourage collaboration and maintainability.
-
-## Benefits
-
-Project templates on GitHub are essential for streamlining the data science and collaboration processes, and they offer several key benefits:
-
-- 🛠️ **Consistency and Best Practices:** Project templates encourage consistency in project structure, coding standards, and best practices. They provide a standardized starting point, ensuring that all team members follow the same guidelines and reduce the risk of introducing errors.
-
-- ⏳ **Time and Effort Savings:** Templates save time by eliminating the need to set up a project from scratch. Developers can quickly start working on their projects without the overhead of configuring the initial project structure, dependencies, or workflows.
-
-- 🚀 **Faster Onboarding:** New team members or contributors can easily get up to speed by using project templates. It simplifies the onboarding process, allowing them to understand the project structure and development practices more quickly.
-
-- 🎨 **Customization and Adaptability:** GitHub project templates can be customized to suit the specific needs of different types of projects or organizations. They serve as a foundation that can be adapted to meet unique requirements.
-
-- 🤝 **Community Engagement:** Open-source projects can attract more contributors when they provide accessible project templates. These templates facilitate contributions by reducing the barriers to entry for potential collaborators.
-
-- 🔄 **Version Control Integration:**  GitHub project templates are tightly integrated with Git version control. This makes it easier to manage changes, collaborate, and track the history of project configurations.
-
-- 📖 **Documentation and Guidance:** Templates often include documentation and guidance to help developers understand the project's structure and how to get started. This can include README files, code comments, and links to relevant resources.
-
-- 🔍 **Discoverability:** Templates are discoverable on GitHub, making it easy for developers to find and use project templates for their preferred programming languages, frameworks, and tools. This helps build a supportive ecosystem.
-
-- ✍️ **Continual Improvement:** Project templates can evolve and improve over time as best practices, technology, and requirements change. This ensures that projects remain up to date and maintainable.
-
-In summary, GitHub project templates are valuable resources that enhance project management, development practices, and collaboration. They promote consistency, efficiency, and quality in software development, whether for individual projects, open-source contributions, or within organizational contexts.
 
 ```{important}
 *With flexibility comes great responsibility*. The <span style="color:#3EACAD">template</span> makes a few opiniated choices for the structure and code/documentation management of a project for what we envision to be most cases. However, even the best of the templates would never be perfect for the universe of cases out there. All in all, the <span style="color:#3EACAD">template</span> aims to encourage teams to start thinking and assimilate **collaborative coding**, **documentation**​, **enginerring**, **reproducibility​** and **best practices** as an integral part of the project. *In a standardized way*.
