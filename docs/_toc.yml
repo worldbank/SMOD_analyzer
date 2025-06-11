@@ -6,12 +6,10 @@ parts:
     numbered: True
     chapters:
       - file: notebooks/SMOD_analyzer.ipynb
-  - caption: Gallery
-    chapters:
-      - file: docs/gallery
   - caption: Additional Resources
     chapters:
       - url: https://worldbank.github.io/GOST/README.html
         title: Geospatial Operations Support Team
       - url: https://datacatalog.worldbank.org/home
         title: World Bank Data Catalog
+      - file: docs/gallery
