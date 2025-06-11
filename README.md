@@ -93,6 +93,15 @@ UTM_crs = 'EPSG:32653'
 unique_ID = 'GUID'
 ```
 
+#### 4. **Run all remaining sections**
+Simply run all the remaining sections. The entire process may take some time to complete.
+For the national-level SMOD analysis, you will obtain two graphs that illustrate trends in urbanization, suburbanization, and rural development (or decline):
+
+Fig.1: Estimated urbanization trend in Japan
+![Estimated urbanization trend in Japan](https://github.com/worldbank/SMOD_analyzer/blob/main/docs/images/JPN_SMOD_national__urban.png)
+
+Fig.2: Estimated suburbanization and rural development trend in Japan
+![Estimated suburbanization and rural development trend in Japan](https://github.com/worldbank/SMOD_analyzer/blob/main/docs/images/JPN_SMOD_national__suburb_rural.png)
 
 
 ## Code of Conduct
