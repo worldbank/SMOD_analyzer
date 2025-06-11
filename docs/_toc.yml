@@ -2,9 +2,10 @@ format: jb-book
 root: README
 
 parts:
-  - caption: SMOD Analyzer examples (Japan)
+  - caption: Contents
     numbered: True
     chapters:
+      - file: README
       - file: notebooks/SMOD_analyzer.ipynb
   - caption: Recommended Workflows
     chapters:
