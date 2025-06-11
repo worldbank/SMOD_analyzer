@@ -7,6 +7,11 @@
 ## Introduction
 [GHS-SMOD (Global Human Settlement Layer – Settlement Model Layer)](https://human-settlement.emergency.copernicus.eu/download.php?ds=smod) provides valuable information on urbanization processes. The SMOD raster dataset, covering the period from 1975 to 2030 in 5-year intervals, offers estimated land use classifications for each 1 km × 1 km grid cell globally.
 
+```{margin} ✨ For the details of GHS-SMOD
+Read this [GHS-official technical document](https://github.com/worldbank/SMOD_analyzer/blob/main/docs/GHSL_Data_Package_2023.pdf) for more details.
+```
+
+
 However, extracting the classified pixel information (such as Urban Center, Suburban, and Rural Cluster) from the SMOD dataset into the Areas of Interest (AOIs) for your project is not straightforward.
 
 [SMOD Analyzer](https://github.com/worldbank/SMOD_analyzer/blob/main/notebooks/SMOD_analyzer.ipynb), a [Google-Colab-based Jupyter Notebook](https://colab.google/), provides an interactive interface to support this workflow. It enables national- and subnational-level data extraction by default with inline-visualization.
@@ -14,12 +19,6 @@ However, extracting the classified pixel information (such as Urban Center, Subu
 With the most minimal set-up, you only need to specify the ISO code of your target country. The notebook will then automatically generate: (1) National-level changes in urban and suburban–rural pixels over a 55-year period, and (2) Subnational-level (i.e., ADM-2 level) aggregations of each SMOD class for each subnational area and year, exported as an ESRI Shapefile—which is readily visualized on any GIS platform and can also be integrated with other related GIS datasets.
 
 For those with knowledge of GIS and Python, this notebook serves as a good foundation for customizing workflows—for example, conducting SMOD analyses on user-defined AOIs such as specific urban areas.
-
-```{important}
-*With flexibility comes great responsibility*. The <span style="color:#3EACAD">template</span> makes a few opiniated choices for the structure and code/documentation management of a project for what we envision to be most cases. However, even the best of the templates would never be perfect for the universe of cases out there. All in all, the <span style="color:#3EACAD">template</span> aims to encourage teams to start thinking and assimilate **collaborative coding**, **documentation**​, **enginerring**, **reproducibility​** and **best practices** as an integral part of the project. *In a standardized way*.
-
-In this spirit, if the <span style="color:#3EACAD">template</span> is not for you or in case you have feedback, please consider [opening an issue](https://github.com/worldbank/template/issues) or [submitting a pull request](https://github.com/worldbank/template/pulls) to share your ideas and suggestions. Your contributions would be appreciated immensely.
-```
 
 ## Usage
 
