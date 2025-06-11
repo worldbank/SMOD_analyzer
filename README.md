@@ -20,8 +20,8 @@ With the most minimal set-up, you only need to specify the ISO code of your targ
 
 For those with knowledge of GIS and Python, this notebook serves as a good foundation for customizing workflows—for example, conducting SMOD analyses on user-defined AOIs such as specific urban areas.
 
-> [!NOTE]
-> Definition of SMOD classes:
+
+Definition of SMOD classes:
 ```
 - 30 Urban Centre
 - 23 Dense Urban Cluster
