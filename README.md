@@ -13,7 +13,7 @@ However, extracting the classified pixel information (such as Urban Center, Subu
 
 With the most minimal set-up, you only need to specify the ISO code of your target country. The notebook will then automatically generate: (1) National-level changes in urban and suburban–rural pixels over a 55-year period, and (2) Subnational-level (i.e., ADM-2 level) aggregations of each SMOD class for each subnational area and year, exported as an ESRI Shapefile—which is readily visualized on any GIS platform and can also be integrated with other related GIS datasets.
 
-
+For those with knowledge of GIS and Python, this notebook serves as a good foundation for customizing workflows—for example, conducting SMOD analyses on user-defined AOIs such as specific urban areas.
 
 ```{important}
 *With flexibility comes great responsibility*. The <span style="color:#3EACAD">template</span> makes a few opiniated choices for the structure and code/documentation management of a project for what we envision to be most cases. However, even the best of the templates would never be perfect for the universe of cases out there. All in all, the <span style="color:#3EACAD">template</span> aims to encourage teams to start thinking and assimilate **collaborative coding**, **documentation**​, **enginerring**, **reproducibility​** and **best practices** as an integral part of the project. *In a standardized way*.
