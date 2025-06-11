@@ -5,7 +5,7 @@ logo: docs/images/new_logo.png
 only_build_toc_files: false
 
 repository:
-  url: https://github.com/worldbank/template
+  url: https://github.com/worldbank/SMOD_analyzer
   branch: main
 
 #######################################################################################
