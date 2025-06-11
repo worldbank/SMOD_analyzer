@@ -35,24 +35,26 @@ The must-haves for this notebook are:
 
 
 Store these resources in a new directory (for example, 'Analyzing GHS-SMOD') following the directory structure below:
-
-Analyzing GHS-SMO/
+```
+Analyzing GHS-SMOM/
+│
 ├── data/
+│   │
 │   ├── shps/
+│   │   └──Any relevant AOI shapefiles
+│   │   └──WB_official_ADM_v20241009/
+│   │       └──The latest WB official ADM shapefiles
+│   │
 │   └── smod_row/
 │       └──all SMOD raster images (1975-2030)
-├── data/
-│   └── japan_admin_boundaries.geojson
+│
+├── output/
+│   └── Empty: Products will be stored here
+│
 ├── SMOD_analyzer.ipynb
 └── tools.py
-
-
-
-
-
-```{seealso}
-For additional information, see the [GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 ```
+
 
 #### 2. **Enable [GitHub Actions](https://github.com/features/actions) and [GitHub Pages](https://pages.github.com)**
 
