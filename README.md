@@ -42,12 +42,15 @@ Analyzing GHS-SMOM/
 ├── data/
 │   │
 │   ├── shps/
-│   │   └──Any relevant AOI shapefiles
-│   │   └──WB_official_ADM_v20241009/
-│   │       └──The latest WB official ADM shapefiles
+│   │   ├──WHO_adm2/ (or WB official ADM2)
+│   │   │   └──GLOBAL_ADM2.shp
+│   │   └──Other AOI shapefile, if applicable
 │   │
 │   └── smod_row/
-│       └──all SMOD raster images (1975-2030)
+│       └──smod_1975.tif
+│       └──smod_1980.tif
+│       └── ...
+│       └──smod_2030.tif
 │
 ├── output/
 │   └── Empty: Products will be stored here
