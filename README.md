@@ -5,7 +5,14 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/worldbank/template/main.svg)](https://results.pre-commit.ci/latest/github/worldbank/template/main)
 
 ## Introduction
-Perform national- and subnational-level extraction of GHS-SMOD (Global Human Settlement Layer – Settlement Model Layer) values. Using this analyzer, you can easily extract urban and rural pixels for your national and subnational-level AOIs.
+[GHS-SMOD (Global Human Settlement Layer – Settlement Model Layer)](https://human-settlement.emergency.copernicus.eu/download.php?ds=smod) provides valuable information on urbanization processes. The SMOD raster dataset, covering the period from 1975 to 2030 in 5-year intervals, offers estimated land use classifications for each 1 km × 1 km grid cell globally.
+
+However, extracting the classified pixel information (such as Urban Center, Suburban, and Rural Cluster) from the SMOD dataset into the Areas of Interest (AOIs) for your project is not straightforward.
+
+[SMOD Analyzer](https://github.com/worldbank/SMOD_analyzer/blob/main/notebooks/SMOD_analyzer.ipynb), a [Google-Colab-based Jupyter Notebook](https://colab.google/), provides an interactive interface to support this workflow. It enables national- and subnational-level data extraction by default with inline-visualization.
+
+With the most minimal set-up, you only need to specify the ISO code of your target country. The notebook will then automatically generate: (1) National-level changes in urban and suburban–rural pixels over a 55-year period, and (2) Subnational-level (i.e., ADM-2 level) aggregations of each SMOD class for each subnational area and year, exported as an ESRI Shapefile—which is readily visualized on any GIS platform and can also be integrated with other related GIS datasets.
+
 
 
 ```{important}
