@@ -5,7 +5,7 @@ parts:
   - caption: Contents
     numbered: True
     chapters:
-      - file: README
+      - file: README.md
       - file: notebooks/SMOD_analyzer.ipynb
   - caption: Recommended Workflows
     chapters:
