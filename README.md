@@ -111,7 +111,10 @@ For the subnational (i.e., ADM-2 level) analysis, you will obtain a CSV file con
 For spatial visualization, the same data—along with geometries—will also be exported as an ESRI Shapefile.
 
 Fig.3: Estimated area-standardized Urban Cluster pixel counts in 2030 in Japan
-![Estimated suburbanization and rural development trend in Japan](/docs/images/JAPAN TEST.png)
+```{margin} ✨ Data handling note
+The pixel count of each SMOD class tends to be proportional to the area size of each ADM-2 boundary. Therefore, it is recommended to standardize the pixel counts by area (in km²) to eliminate the effect of varying boundary sizes.
+```
+![Estimated suburbanization and rural development trend in Japan](/docs/images/JAPAN_TEST.png)
 
 
 
