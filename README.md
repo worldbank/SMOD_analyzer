@@ -30,7 +30,7 @@ If you have previously used Colab, you likely already have a â€œColab Notebooksâ
 #### 2. **Download all SMOD-analyzer resources**
 The must-haves for this notebook are:
 - [SMOD_analyzer.ipynb](https://github.com/worldbank/SMOD_analyzer/blob/main/notebooks/SMOD_analyzer.ipynb)
-- Global ADM2 Boundary Shapefile (Preferably the latest World Bank Official ADM2 Shapefile (Not Public, Internal-use Only). Alternatively, [World Health Organization ADM2](https://gis-who.hub.arcgis.com/pages/detailedboundary) (Publicly Available - You can find it [here]() as well))
+- Global ADM2 Boundary Shapefile (Preferably the latest World Bank Official ADM2 Shapefile (Not Public, Internal-use Only). Alternatively, [World Health Organization ADM2](https://gis-who.hub.arcgis.com/pages/detailedboundary) (Publicly Available))
 - [tools.py](https://github.com/worldbank/SMOD_analyzer/blob/main/src/tools.py)
 - [underlying SMOD dataset](https://github.com/worldbank/SMOD_analyzer/tree/main/data/smod_raw)
 
