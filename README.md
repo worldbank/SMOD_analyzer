@@ -20,6 +20,30 @@ With the most minimal set-up, you only need to specify the ISO code of your targ
 
 For those with knowledge of GIS and Python, this notebook serves as a good foundation for customizing workflows—for example, conducting SMOD analyses on user-defined AOIs such as specific urban areas.
 
+
+Definition of SMOD classes:
+```
+- 30 Urban Centre
+- 23 Dense Urban Cluster
+- 22 Semi-Dense Urban Cluster
+- 21 Suburban or Peri-urban
+- 13 Rural Cluster
+- 12 Low-density Rural
+- 11 Very Low-density Rural
+- 10 Rural Grid Cell (general)
+- 0 No Population / Not classified / Water bodies
+```
+
+Example of reclassification (there is no definitive rule)
+```{margin} ✨ Reclassification of SMOD classes
+How to reclassify the SMOD classes into urban, suburban, and rural categories may vary depending on the context. You should consider the most appropriate reclassification scheme for your specific analysis.
+```
+```
+- Urban: 30, 23, 22
+- Suburban: 21
+- Rural: 13, 12, 11, 10
+```
+
 ## Usage
 
 ### Getting Started
