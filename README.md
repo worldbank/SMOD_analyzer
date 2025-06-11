@@ -93,6 +93,26 @@ UTM_crs = 'EPSG:32653'
 unique_ID = 'GUID'
 ```
 
+#### 4. **Run all remaining sections**
+Simply run all the remaining sections. The entire process may take some time to complete.
+
+For the national-level SMOD analysis, you will obtain two graphs that illustrate trends in urbanization, suburbanization, and rural development (or decline):
+
+Fig.1: Estimated urbanization trend in Japan
+![Estimated urbanization trend in Japan](/docs/images/JPN_SMOD_national__urban.png)
+
+Fig.2: Estimated suburbanization and rural development trend in Japan
+![Estimated suburbanization and rural development trend in Japan](/docs/images/JPN_SMOD_national__suburb_rural.png)
+
+
+For the subnational (i.e., ADM-2 level) analysis, you will obtain a CSV file containing pixel counts for each SMOD class per ADM-2 area per year.
+(Note: the table may be very large if your target country has many ADM-2 areas.)
+
+For spatial visualization, the same data—along with geometries—will also be exported as an ESRI Shapefile.
+
+Fig.3: Estimated area-standardized Urban Cluster pixel counts in 2030 in Japan
+![Estimated suburbanization and rural development trend in Japan](/docs/images/JAPAN TEST.png)
+
 
 
 ## Code of Conduct
